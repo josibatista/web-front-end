@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Josiane Batista</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
 </head>
@@ -15,7 +16,7 @@
         <h1>Josiane Mariane Batista</h1>
     </header>
 
-    <nav>
+    <nav id="tabela-apresentacao">
 
         <table>
             <tr>
@@ -23,14 +24,14 @@
                 <figure>
                     <img src="figs/foto_de_perfil_josiane.jpg"
                         alt="perfil" height="150">
-                        <figcaption>
+                        <figcaption id="perfil">
                             Foto de perfil.
                         </figcaption>
                 </figure>
             </td>
                 <td>
-                    <p><i class="material-icons-outlined">email</i>Email: <a       href="mailto:josianemaribatista@gmail.com">josianemaribatista@gmail.com</a></p>
-                    <p><i class="material-icons-outlined">work</i>LinkedIn:<a
+                    <p><i class="material-icons-outlined">email</i><span class="titulo-contato">Email:</span> <a       href="mailto:josianemaribatista@gmail.com">josianemaribatista@gmail.com</a></p>
+                    <p><i class="material-icons-outlined">work</i><span class="titulo-contato">LinkedIn:</span><a
                     href="https://www.linkedin.com/in/josiane-batista-95145520b/">josiane-batista-95145520b</a></p>
                     <p><i class="material-icons-outlined">location_on</i>Cornélio Procópio, Paraná</p>
                 </td>
@@ -42,16 +43,15 @@
 
     <section>
         <h2>Resumo</h2>
-        <p>Acadêmica de Engenharia de Software na Universidade Tecnológica Federal do Paraná, Campus Cornélio Procópio (UTFPR-CP).</p>
-        <p><b>Principais Interesses na Área:</b> matemática computacional, engenharia de requisitios, linguagem UML, engenharia de prompt e inteligência artificial.</p>
-        <p><b>Principais Experiências:</b> pesquisa em matemática computacional, engenharia de qualidade, teste de APIs e ineligência artificial.</p>
+        <p class="resumo">Acadêmica de Engenharia de Software na Universidade Tecnológica Federal do Paraná, Campus Cornélio Procópio (UTFPR-CP).</p>
+        <p class="resumo"><b>Principais Interesses na Área:</b> matemática computacional, engenharia de requisitios, linguagem UML, engenharia de prompt e inteligência artificial.</p>
+        <p class="resumo"><b>Principais Experiências:</b> pesquisa em matemática computacional, engenharia de qualidade, teste de APIs e ineligência artificial.</p>
     </section>
 
     <section>
         <h2>ODS que pretendo contribuir</h2>
 
         <figure>
-            
             <img src="figs/ODS10.png" alt="ODS-10" height="150">
             <figcaption>
                 ODS 10 - Redução das desigualdades.
@@ -80,7 +80,7 @@
 
     <section>
         <h2>Experiência Profissional</h2>
-        <p><b>Compass UOL – Estagiária em Qualidade de Software</b> (2024)</p>
+        <p id="compass">Compass UOL – Estagiária em Qualidade de Software (2024)</p>
         <ul>
             <li>Estudo de APIs, planejamento e aplicação de testes de software manuais e automatizados com JavaScript.
             </li>
@@ -100,8 +100,11 @@
     <section>
         <h2>Links adicionais</h2>
         <p><a href="https://github.com/josibatista">Perfil do Github</a></p>
-        <p>CV - Josiane Batista - 2025</p>
     </section>
+
+    <footer>
+        <p>CV - Josiane Batista - 2025</p>
+    </footer>
 
 </body>
 
